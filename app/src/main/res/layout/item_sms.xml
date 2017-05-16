@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/time_xis"
+            android:layout_width="86.4dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:minHeight="1dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sms_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/time_xis"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="广东省东莞市东城公司 配送中配送员在东莞被抓，快递延时"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="2017-05-16"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="7.2dp"
+            android:layout_height="7.2dp"
+            android:layout_alignTop="@+id/ll_sms_detail"
+            android:layout_marginLeft="39.6dp"
+            android:layout_marginTop="8.9dp"
+            android:background="@drawable/shape_circle"/>
+
+    </RelativeLayout>
+</LinearLayout>
