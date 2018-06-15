@@ -12,7 +12,7 @@
 
         <LinearLayout
             android:id="@+id/time_xis"
-            android:layout_width="86.4dp"
+            android:layout_width="86dp"
             android:layout_height="wrap_content"
             android:gravity="center">
 
@@ -53,11 +53,11 @@
         </LinearLayout>
 
         <View
-            android:layout_width="7.2dp"
-            android:layout_height="7.2dp"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
             android:layout_alignTop="@+id/ll_sms_detail"
-            android:layout_marginLeft="39.6dp"
-            android:layout_marginTop="8.9dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/shape_circle"/>
 
     </RelativeLayout>
